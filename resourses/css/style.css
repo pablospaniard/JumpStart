@@ -1,4 +1,141 @@
+html {
+    font-size: 14px;
+}
+
+
+/*
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Monoton', cursive;
+    padding-top: 70px;
+}
+*/
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #399bd1;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#blue {
+    color: #399bd1;
+}
+
+ul {
+    line-height: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e9e9e9;
+    background-color: #f3f3f3;
+}
+
+.active a {
+    color: #399bd1;
+}
+
+nav a {
+    color: grey;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+/*JUMBOTRON*/
+
+.jumbotron,
+.jumbotron-bike {
+    background-image: url(../images/jumbotron-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 11.85rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron h1 {
+    font-family: Monoton;
+    font-size: 7.1rem;
+}
+
+.jumbotron p {
+    width: 51.3rem;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+    width: 11.4rem;
+    margin-top: 2.8rem;
+    padding: 1.3rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/*FEATURES*/
+
+.features .image-container {
+    height: 19rem;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+/*PROJECTS*/
+
+.projects {
+    margin-bottom: 5.85rem;
+}
+
+.projects .col-md-4 {}
+
+.projects img {
+    opacity: 0.7;
+}
+
+
+/*BOTTOM*/
+
+.bottom {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 5.2rem 0;
+}
+
+.bottom strong {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.bottom p {
+    width: 42rem;
+    margin: 0 auto;
+    padding-top: 1.4rem;
 }
