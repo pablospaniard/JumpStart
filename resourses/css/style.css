@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h2 {
     font-size: 1.7rem;
     font-weight: bold;
@@ -82,10 +86,45 @@ nav a:hover {
 }
 
 /*JUMBOTRON*/
+.jumbotron{
+    
+}
 
-.jumbotron,
 .jumbotron-bike {
     background-image: url(../images/jumbotron-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 11.85rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-beer {
+    background-image: url(../images/jumbotron-beer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 11.85rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-duffel {
+    background-image: url(../images/jumbotron-duffel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 11.85rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-flowers {
+    background-image: url(../images/jumbotron-flowers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -103,6 +142,13 @@ nav a:hover {
 .jumbotron p {
     width: 51.3rem;
     margin: 0 auto;
+}
+
+.relative-wrapper {
+    position: relative;
+    top: -16rem;
+    width: 100%;
+    text-align: center;
 }
 
 .btn {
@@ -127,6 +173,10 @@ nav a:hover {
 .features .image-container {
     height: 19rem;
     margin-top: 20px;
+}
+
+.features {
+        margin-top: -7rem;
 }
 
 
