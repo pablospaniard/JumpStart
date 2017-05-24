@@ -69,6 +69,17 @@ nav a:hover {
     background-color: transparent !important;
 }
 
+.navbar-toggle {
+    border-color: #777;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #777;
+}
+
+.navbar-toggle:hover {
+    background-color: white;
+}
 
 /*JUMBOTRON*/
 
